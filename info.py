@@ -20,7 +20,7 @@ if 'DYNO' in environ:
     ON_KOYEB = True
 else:
     ON_KOYEB = False
-URL = environ.get("URL", "https://emotional-kellia-febolaw934-5e1a4cbf.koyeb.app/")
+URL = environ.get("URL", "https://significant-ardys-febolaw934-a8fd1b9f.koyeb.app/")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002575564532'))
