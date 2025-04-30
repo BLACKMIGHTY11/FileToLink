@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '24180264'))
 API_HASH = environ.get('API_HASH', 'cedea589a0ddbf382b755852409e7bc4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8159340701:AAHwpXfsSupjq5cJB_nQi-3AExPlsJ5CqgA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8022307089:AAEOAH6eWmjNP4UjEyHz0DW5JrQ6fhKM1Xk")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -24,11 +24,11 @@ URL = environ.get("URL", "https://emotional-kellia-febolaw934-5e1a4cbf.koyeb.app
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002575564532'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6484066705').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Blackmighty:SIvesh97@*@cluster0.fmihkkx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vajefiy815:VuhH5f2WV4NuVWny@cluster0.nolbt0s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
