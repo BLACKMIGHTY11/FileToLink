@@ -28,7 +28,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vajefiy815:VuhH5f2WV4NuVWny@cluster0.nolbt0s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "vajefiy815")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
